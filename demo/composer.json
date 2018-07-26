@@ -1,0 +1,33 @@
+{
+    "name": "OMR Demo",
+    "description": "Aspose.OMR for Cloud PHP Demo",
+    "homepage": "https://github.com/aspose-omr-cloud/aspose-omr-cloud-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aspose Pty Ltd",
+            "homepage": "https://www.aspose.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-json": "*",
+        "aspose/storage-sdk-php": "^18.4",
+        "guzzlehttp/promises": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "~2.6",
+        "friendsofphp/php-cs-fixer": "^1.12 || ^2.10"
+
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/aspose-storage-cloud/aspose-storage-cloud-php"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Aspose\\Omr\\" : "../src/" }
+    }
+}
