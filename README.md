@@ -49,7 +49,7 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
     }
   ],
   "require": {
-    "aspose-omr-cloud/aspose-omr-cloud-php": "*@dev"
+    "aspose/aspose-omr-cloud": "*@dev"
   }
 }
 ```

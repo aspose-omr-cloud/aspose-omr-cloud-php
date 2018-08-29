@@ -1,6 +1,6 @@
 {
-    "name": "aspose-omr-cloud/aspose-omr-cloud-php",
-    "description": "Aspose.OMR for Cloud",
+    "name": "aspose/aspose-omr-cloud",
+    "description": "PHP library for communicating with the Aspose.OMR Cloud API",
     "keywords": [
          "Aspose",
          "Cloud",
