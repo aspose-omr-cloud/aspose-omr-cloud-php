@@ -1,6 +1,6 @@
 # Aspose.OMR for Cloud
 
-[Aspose.OMR for Cloud](https://products.aspose.cloud/omr/cloud) is a REST API that helps you to perform optical mark recognition in the cloud. We provide a series of [SDKs](https://github.com/aspose-omr-cloud). Along with that, you can get [binaries](https://github.com/aspose-omr-cloud/aspose-omr-cloud-dotnet/releases) to start working immediately and recognize various OMR forms.
+[Aspose.OMR for Cloud](https://products.aspose.cloud/omr/) is a REST API that helps you to perform optical mark recognition in the cloud. We provide a series of [SDKs](https://github.com/aspose-omr-cloud). Along with that, you can get [binaries](https://github.com/aspose-omr-cloud/aspose-omr-cloud-dotnet/releases) to start working immediately and recognize various OMR forms.
 
 Developers can embed [optical recognition](https://en.wikipedia.org/wiki/Optical_mark_recognition) in any type of application to extract data from images of tests, exams, questionnaires, surveys, etc. In the repository you can find examples on how to start using [Aspose.OMR API](https://docs.aspose.cloud/display/omrcloud/OMR+API+Specification) in your project.
 
@@ -36,6 +36,17 @@ PHP 5.6 and later
 OpenSSL and WinSSL based libcurl versions can be downloaded from [here](https://curl.haxx.se/gknw.net/7.40.0/). Just choose your platform (x86 or x64) and OpenSSL (look for `ssl` string in the file name) or WinSSL (look for `winssl` string in the file name)
  
 ## Installation
+
+
+
+### Clone repository
+
+Clone `aspose-omr-cloud` **with submodules**:
+```sh
+git clone https://github.com/aspose-omr-cloud/aspose-omr-cloud-php.git --recurse-submodules
+```
+
+
 ### Composer
 
 To install the bindings via [Composer](http://getcomposer.org/), add the following to `composer.json`:
@@ -72,6 +83,16 @@ To take full advantage of Aspose.OMR for Cloud, _aspose/storage-sdk-php_ is requ
 
 ### Receive Cloud Keys
 Aspose.Cloud credentials are required to use Aspose.OMR for Cloud API. You can acquire App SID and App Key by registrating at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud). It will take only a couple of minutes.
+
+
+### Update submodule 
+Make sure you've cloned [aspose-omr-cloud-demo-data](https://github.com/aspose-omr-cloud/aspose-omr-cloud-demo-data) submodule, that contains all data required to run demo.
+In case you are missing submodules use the following git commands to initialize and update them:
+```sh
+git submodule init
+git submodule update --remote --merge
+```
+
 
 ### Code example
 You can check out [OMR Demo](demo) project to get started with Aspose.OMR for Cloud.
