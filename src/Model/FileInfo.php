@@ -260,8 +260,8 @@ class FileInfo implements ArrayAccess
     public function setData($data)
     {
 
-        if (!is_null($data) &&  (strlen($data)/3 < 16 * 1024) && (!preg_match("/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/", $data))) {
-            throw new \InvalidArgumentException("invalid value for $data when calling FileInfo., must conform to the pattern /^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?$/.");
+        if (is_null($data)) {
+            throw new \InvalidArgumentException("invalid value for $data when calling FileInfo.");
         }
 
         $this->container['data'] = $data;
