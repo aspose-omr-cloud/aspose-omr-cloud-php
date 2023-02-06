@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":278:{a:2:{s:7:"defects";a:2:{s:45:"GenerateTemplateApiTest::testGenerateTemplate";i:4;s:46:"RecognizeTemplateApiTest::testGenerateTemplate";i:4;}s:5:"times";a:2:{s:45:"GenerateTemplateApiTest::testGenerateTemplate";d:0.008;s:46:"RecognizeTemplateApiTest::testGenerateTemplate";d:0;}}}
